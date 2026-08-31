@@ -79,3 +79,30 @@ export_curves {Curve_5 Curve_6 Curve_7 Curve_8} -plot Plot_1 -filename /home/cds
 #-> /home/cdsllab/25ec01021/q6.csv
 export_variables {{drain TotalCurrent}} -dataset IdVd_n40_des -filename /home/cdsllab/25ec01021/q6_1.csv
 #-> /home/cdsllab/25ec01021/q6_1.csv
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+set_legend_prop -plot Plot_1 -position {0.0777311 0.927552}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+export_view /home/cdsllab/25ec01021/MOSFET/q6.png -plots {Plot_1} -format png
+#-> 0
+exit 0
+ 
