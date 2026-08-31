@@ -1,0 +1,118 @@
+15:29:11 Aug 24 2026 <MOSFET> submitted to the batch system
+15:29:11 Aug 24 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+15:29:16 Aug 24 2026 --- job 1 <sde> exited abnormally: exit()
+15:29:18 Aug 24 2026 <MOSFET> failed
+15:30:34 Aug 24 2026 <MOSFET> submitted to the batch system
+15:30:35 Aug 24 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+15:32:33 Aug 24 2026 --- job 1 <sde> exited abnormally: exit()
+15:32:35 Aug 24 2026 <MOSFET> failed
+15:33:29 Aug 24 2026 <MOSFET> submitted to the batch system
+15:33:29 Aug 24 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+15:38:44 Aug 24 2026 +++ job 1 <sde> done: exit(0)
+15:38:46 Aug 24 2026 <MOSFET> done (317 sec)
+16:09:29 Aug 24 2026 <MOSFET> submitted to the batch system
+16:09:30 Aug 24 2026     job 3 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp3_des.cmd"
+16:10:01 Aug 24 2026 +++ job 3 <sdevice> done: exit(0)
+16:10:03 Aug 24 2026 <MOSFET> done (34 sec)
+16:31:49 Aug 24 2026 <MOSFET> submitted to the batch system
+16:31:50 Aug 24 2026     job 4 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp4_des.cmd"
+16:32:36 Aug 24 2026 +++ job 4 <sdevice> done: exit(0)
+16:32:39 Aug 24 2026 <MOSFET> done (50 sec)
+16:56:33 Aug 24 2026 <MOSFET> submitted to the batch system
+16:56:34 Aug 24 2026 <MOSFET> done (1 sec)
+16:57:03 Aug 24 2026 <MOSFET> submitted to the batch system
+16:57:05 Aug 24 2026 <MOSFET> done (2 sec)
+16:58:19 Aug 24 2026 <MOSFET> submitted to the batch system
+16:58:22 Aug 24 2026     job 4 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp4_des.cmd"
+16:59:10 Aug 24 2026 +++ job 4 <sdevice> done: exit(0)
+16:59:11 Aug 24 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp6_des.cmd"
+16:59:59 Aug 24 2026 +++ job 6 <sdevice> done: exit(0)
+17:00:00 Aug 24 2026     job 8 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp8_des.cmd"
+17:00:49 Aug 24 2026 +++ job 8 <sdevice> done: exit(0)
+17:00:50 Aug 24 2026     job 10 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp10_des.cmd"
+17:01:38 Aug 24 2026 +++ job 10 <sdevice> done: exit(0)
+17:01:39 Aug 24 2026     job 12 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp12_des.cmd"
+17:02:27 Aug 24 2026 +++ job 12 <sdevice> done: exit(0)
+17:02:28 Aug 24 2026     job 14 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp14_des.cmd"
+17:03:17 Aug 24 2026 +++ job 14 <sdevice> done: exit(0)
+17:03:19 Aug 24 2026 <MOSFET> done (300 sec)
+17:06:00 Aug 24 2026 <MOSFET> submitted to the batch system
+17:06:03 Aug 24 2026     job 4 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp4_des.cmd"
+17:06:50 Aug 24 2026 +++ job 4 <sdevice> done: exit(0)
+17:06:51 Aug 24 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp6_des.cmd"
+17:07:40 Aug 24 2026 +++ job 6 <sdevice> done: exit(0)
+17:07:41 Aug 24 2026     job 8 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp8_des.cmd"
+17:08:31 Aug 24 2026 +++ job 8 <sdevice> done: exit(0)
+17:08:32 Aug 24 2026     job 10 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp10_des.cmd"
+17:09:21 Aug 24 2026 +++ job 10 <sdevice> done: exit(0)
+17:09:22 Aug 24 2026     job 12 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp12_des.cmd"
+17:10:13 Aug 24 2026 +++ job 12 <sdevice> done: exit(0)
+17:10:14 Aug 24 2026     job 14 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp14_des.cmd"
+17:11:02 Aug 24 2026 +++ job 14 <sdevice> done: exit(0)
+17:11:04 Aug 24 2026 <MOSFET> done (304 sec)
+14:50:14 Aug 31 2026 <MOSFET> submitted to the batch system
+14:50:15 Aug 31 2026     job 5 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp5_des.cmd"
+14:51:05 Aug 31 2026 +++ job 5 <sdevice> done: exit(0)
+14:51:07 Aug 31 2026 <MOSFET> done (53 sec)
+16:10:50 Aug 31 2026 <MOSFET> submitted to the batch system
+16:10:51 Aug 31 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+16:11:22 Aug 31 2026 +++ job 1 <sde> done: exit(0)
+16:11:24 Aug 31 2026 <MOSFET> done (34 sec)
+16:11:34 Aug 31 2026 <MOSFET> submitted to the batch system
+16:11:35 Aug 31 2026     job 5 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp5_des.cmd"
+16:12:21 Aug 31 2026 +++ job 5 <sdevice> done: exit(0)
+16:12:23 Aug 31 2026 <MOSFET> done (49 sec)
+16:12:51 Aug 31 2026 <MOSFET> submitted to the batch system
+16:12:52 Aug 31 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+16:13:10 Aug 31 2026 +++ job 1 <sde> done: exit(0)
+16:13:12 Aug 31 2026 <MOSFET> done (21 sec)
+16:13:19 Aug 31 2026 <MOSFET> submitted to the batch system
+16:13:20 Aug 31 2026     job 7 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp7_des.cmd"
+16:14:07 Aug 31 2026 +++ job 7 <sdevice> done: exit(0)
+16:14:09 Aug 31 2026 <MOSFET> done (50 sec)
+16:32:56 Aug 31 2026 <MOSFET> submitted to the batch system
+16:32:57 Aug 31 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+16:33:02 Aug 31 2026 +++ job 1 <sde> done: exit(0)
+16:33:04 Aug 31 2026 <MOSFET> done (8 sec)
+16:33:19 Aug 31 2026 <MOSFET> submitted to the batch system
+16:33:20 Aug 31 2026     job 7 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp7_des.cmd"
+16:34:24 Aug 31 2026 +++ job 7 <sdevice> done: exit(0)
+16:34:26 Aug 31 2026 <MOSFET> done (67 sec)
+16:34:41 Aug 31 2026 <MOSFET> submitted to the batch system
+16:34:42 Aug 31 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+16:34:47 Aug 31 2026 +++ job 1 <sde> done: exit(0)
+16:34:50 Aug 31 2026 <MOSFET> done (9 sec)
+16:34:57 Aug 31 2026 <MOSFET> submitted to the batch system
+16:34:58 Aug 31 2026     job 9 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp9_des.cmd"
+16:39:32 Aug 31 2026 +++ job 9 <sdevice> done: exit(0)
+16:39:35 Aug 31 2026 <MOSFET> done (278 sec)
+17:19:03 Aug 31 2026 <MOSFET> submitted to the batch system
+17:19:04 Aug 31 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+17:19:09 Aug 31 2026 +++ job 1 <sde> done: exit(0)
+17:19:11 Aug 31 2026 <MOSFET> done (8 sec)
+17:19:21 Aug 31 2026 <MOSFET> submitted to the batch system
+17:19:22 Aug 31 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp6_des.cmd"
+17:20:25 Aug 31 2026 +++ job 6 <sdevice> done: exit(0)
+17:20:28 Aug 31 2026 <MOSFET> done (67 sec)
+17:33:17 Aug 31 2026 <MOSFET> submitted to the batch system
+17:33:18 Aug 31 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp6_des.cmd"
+17:34:23 Aug 31 2026 +++ job 6 <sdevice> done: exit(0)
+17:34:25 Aug 31 2026 <MOSFET> done (68 sec)
+17:37:02 Aug 31 2026 <MOSFET> submitted to the batch system
+17:37:03 Aug 31 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp6_des.cmd"
+17:38:05 Aug 31 2026 +++ job 6 <sdevice> done: exit(0)
+17:38:07 Aug 31 2026 <MOSFET> done (65 sec)
+17:40:20 Aug 31 2026 <MOSFET> submitted to the batch system
+17:40:22 Aug 31 2026     job 6 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp6_des.cmd"
+17:41:25 Aug 31 2026 +++ job 6 <sdevice> done: exit(0)
+17:41:26 Aug 31 2026     job 8 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp8_des.cmd"
+17:42:34 Aug 31 2026 +++ job 8 <sdevice> done: exit(0)
+17:42:35 Aug 31 2026     job 10 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp10_des.cmd"
+17:43:40 Aug 31 2026 +++ job 10 <sdevice> done: exit(0)
+17:43:41 Aug 31 2026     job 12 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp12_des.cmd"
+17:44:39 Aug 31 2026 +++ job 12 <sdevice> done: exit(0)
+17:44:41 Aug 31 2026 <MOSFET> done (261 sec)
+17:53:40 Aug 31 2026 <MOSFET> submitted to the batch system
+17:53:42 Aug 31 2026     job 18 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp18_des.cmd"
+17:55:07 Aug 31 2026 +++ job 18 <sdevice> done: exit(0)
+17:55:08 Aug 31 2026     job 20 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp20_des.cmd"
