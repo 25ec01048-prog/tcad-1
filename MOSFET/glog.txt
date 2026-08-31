@@ -223,3 +223,22 @@ local% exec /cad/synopsys/sentaurus/V-2023.12/bin/gjob -verbose -nice 19 --max_t
 local% exec /cad/synopsys/sentaurus/V-2023.12/bin/gjob -verbose -nice 19 --max_threads 4  -job 20 -swb_pid 397877 -gsub_pid 420824 -gsub_host cdsl18.cdsl.iitbbs.ac.in -gsub_port 43371  "/home/cdsllab/25ec01021/MOSFET"
 >>>>>>>>>> job '20' status changed from 'pending' to 'running'
 17:55:08 Aug 31 2026     job 20 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp20_des.cmd"
+>>>>>>>>>> job '20' status changed from 'running' to 'done'
+17:56:32 Aug 31 2026 +++ job 20 <sdevice> done: exit(0)
+local% exec /cad/synopsys/sentaurus/V-2023.12/bin/gjob -verbose -nice 19 --max_threads 4  -job 30 -swb_pid 397877 -gsub_pid 420824 -gsub_host cdsl18.cdsl.iitbbs.ac.in -gsub_port 43371  "/home/cdsllab/25ec01021/MOSFET"
+>>>>>>>>>> job '30' status changed from 'pending' to 'running'
+17:56:33 Aug 31 2026     job 30 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice pp30_des.cmd"
+>>>>>>>>>> job '30' status changed from 'running' to 'done'
+17:57:55 Aug 31 2026 +++ job 30 <sdevice> done: exit(0)
+local% exec /cad/synopsys/sentaurus/V-2023.12/bin/gjob -verbose -nice 19 --max_threads 4  -job 40 -swb_pid 397877 -gsub_pid 420824 -gsub_host cdsl18.cdsl.iitbbs.ac.in -gsub_port 43371  "/home/cdsllab/25ec01021/MOSFET"
+>>>>>>>>>> job '40' status changed from 'pending' to 'running'
+17:57:56 Aug 31 2026     job 40 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp40_des.cmd"
+>>>>>>>>>> job '40' status changed from 'running' to 'done'
+17:59:15 Aug 31 2026 +++ job 40 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 18 20 30 40
+
+17:59:17 Aug 31 2026 <MOSFET> done (337 sec)
+>>>>>> Writing to status file 337
+gsub exits with status 0
