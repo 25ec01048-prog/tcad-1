@@ -1,57 +1,32 @@
 # Copyright (C) 1994-2023 Synopsys Inc.
-# swbtree vcurrent, saved by swb
+# swbtree vcurrent, saved by gsub0
 
 # --- simulation flow
 mosfet_1 sde "" {}
+Breakdown sdevice "" {}
+Breakdown 1 "1" {1} R
 id_vds sdevice "" {}
 id_vds vgs "0.3" {0.3 0.6 0.9 1.5} R
 idvg sdevice "" {}
-idvg vds "0.05" {0.05 0.4 1.1 0 SWB__0} R
 equillibrium sdevice "" {}
 # --- variables
 # --- scenarios and parameter specs
+scenario default 1 ""
 scenario default vgs ""
-scenario default vds ""
 # --- simulation tree
 0 1 0 {} {default} 0
-1 19 1 {} {default} 0
-2 18 19 {0.3} {default} 0
-3 7 18 {} {default} 0
-4 6 7 {0.05} {default} 0
-5 3 6 {} {default} 0
-4 8 7 {0.4} {default} 0
-5 9 8 {} {default} 0
-4 10 7 {1.1} {default} 0
-5 11 10 {} {default} 0
-4 12 7 {0} {default} 0
-5 13 12 {} {default} 0
-2 20 19 {0.6} {default} 0
-3 21 20 {} {default} 0
-4 22 21 {0.05} {default} 0
-5 23 22 {} {default} 0
-4 24 21 {0.4} {default} 0
-5 25 24 {} {default} 0
-4 26 21 {1.1} {default} 0
-5 27 26 {} {default} 0
-4 28 21 {0} {default} 0
-5 29 28 {} {default} 0
-2 30 19 {0.9} {default} 0
-3 31 30 {} {default} 0
-4 32 31 {0.05} {default} 0
-5 33 32 {} {default} 0
-4 34 31 {0.4} {default} 0
-5 35 34 {} {default} 0
-4 36 31 {1.1} {default} 0
-5 37 36 {} {default} 0
-4 38 31 {0} {default} 0
-5 39 38 {} {default} 0
-2 40 19 {1.5} {default} 0
-3 41 40 {} {default} 0
-4 42 41 {0.05} {default} 0
-5 43 42 {} {default} 0
-4 44 41 {0.4} {default} 0
-5 45 44 {} {default} 0
-4 46 41 {1.1} {default} 0
-5 47 46 {} {default} 0
-4 48 41 {0} {default} 0
-5 49 48 {} {default} 0
+1 45 1 {} {default} 0
+2 44 45 {1} {default} 0
+3 19 44 {} {default} 0
+4 18 19 {0.3} {default} 0
+5 7 18 {} {default} 0
+6 3 7 {} {default} 0
+4 20 19 {0.6} {default} 0
+5 21 20 {} {default} 0
+6 23 21 {} {default} 0
+4 30 19 {0.9} {default} 0
+5 31 30 {} {default} 0
+6 33 31 {} {default} 0
+4 40 19 {1.5} {default} 0
+5 41 40 {} {default} 0
+6 43 41 {} {default} 0

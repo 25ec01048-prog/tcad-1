@@ -1,0 +1,32 @@
+11:42:38 Sep 04 2026 <q9> submitted to the batch system
+11:42:39 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+11:42:44 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+11:42:46 Sep 04 2026 <q9> done (8 sec)
+11:43:00 Sep 04 2026 <q9> submitted to the batch system
+11:43:01 Sep 04 2026     job 2 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp2_des.cmd"
+11:43:06 Sep 04 2026 --- job 2 <sdevice> exited abnormally: exit()
+11:43:08 Sep 04 2026 <q9> failed
+11:44:06 Sep 04 2026 <q9> submitted to the batch system
+11:44:07 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+11:44:12 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+11:44:15 Sep 04 2026 <q9> done (9 sec)
+11:44:24 Sep 04 2026 <q9> submitted to the batch system
+11:44:25 Sep 04 2026     job 2 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp2_des.cmd"
+11:44:30 Sep 04 2026 --- job 2 <sdevice> exited abnormally: exit()
+11:44:32 Sep 04 2026 <q9> failed
+11:50:33 Sep 04 2026 <q9> submitted to the batch system
+11:50:34 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+11:50:56 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+11:50:58 Sep 04 2026 <q9> done (25 sec)
+11:51:42 Sep 04 2026 <q9> submitted to the batch system
+11:51:43 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -l n1_dvs.cmd"
+11:53:33 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+11:53:35 Sep 04 2026 <q9> done (113 sec)
+11:53:54 Sep 04 2026 <q9> submitted to the batch system
+11:53:55 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+11:54:00 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+11:54:02 Sep 04 2026 <q9> done (8 sec)
+11:54:07 Sep 04 2026 <q9> submitted to the batch system
+11:54:08 Sep 04 2026     job 2 <sdevice> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sdevice --max_threads 4  pp2_des.cmd"
+11:54:44 Sep 04 2026 +++ job 2 <sdevice> done: exit(0)
+11:54:46 Sep 04 2026 <q9> done (39 sec)

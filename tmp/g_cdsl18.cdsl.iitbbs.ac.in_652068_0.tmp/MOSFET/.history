@@ -1,0 +1,8 @@
+09:28:30 Sep 04 2026 <MOSFET> submitted to the batch system
+09:28:31 Sep 04 2026     job 1 <sde> started on host 'cdsl18.cdsl.iitbbs.ac.in': "sde -e -l n1_dvs.cmd"
+09:28:38 Sep 04 2026 +++ job 1 <sde> done: exit(0)
+09:28:40 Sep 04 2026 <MOSFET> done (10 sec)
+09:28:57 Sep 04 2026 <MOSFET> submitted to the batch system
+09:28:59 Sep 04 2026 <MOSFET> done (2 sec)
+09:30:44 Sep 04 2026 <MOSFET> submitted to the batch system
+09:30:46 Sep 04 2026 <MOSFET> done (2 sec)

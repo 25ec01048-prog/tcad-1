@@ -13,7 +13,7 @@ File {
 
 Electrode {
    { Name="source"    Voltage=0.0 }
-   { Name="drain"     Voltage= @vds@ }
+   { Name="drain"     Voltage= 1.1}
    { Name="gate"      Voltage=(0 at 0, Vg at tend) }
 
 }
@@ -26,7 +26,7 @@ Physics {
 
    Mobility (
       DopingDependence
-      Enormal
+
       HighFieldSaturation( GradQuasiFermi )
    )
 

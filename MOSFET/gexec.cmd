@@ -2,6 +2,9 @@
 name MOSFET
 # execution graph
 job 18 -d "1"  -post { extract_vars "$nodedir" n18_des.out 18 }  -o n18_des "sdevice pp18_des.cmd"
+job 44 -d "1"  -post { extract_vars "$nodedir" n44_des.out 44 }  -o n44_des "sdevice pp44_des.cmd"
+job 31 -d "1"  -post { extract_vars "$nodedir" n31_des.out 31 }  -o n31_des "sdevice pp31_des.cmd"
+job 21 -d "1"  -post { extract_vars "$nodedir" n21_des.out 21 }  -o n21_des "sdevice pp21_des.cmd"
 job 20 -d "1"  -post { extract_vars "$nodedir" n20_des.out 20 }  -o n20_des "sdevice pp20_des.cmd"
 job 30 -d "1"  -post { extract_vars "$nodedir" n30_des.out 30 }  -o n30_des "sdevice pp30_des.cmd"
 job 40 -d "1"  -post { extract_vars "$nodedir" n40_des.out 40 }  -o n40_des "sdevice pp40_des.cmd"
@@ -16,14 +19,15 @@ job 5 -d "1"  -post { extract_vars "$nodedir" n5_des.out 5 }  -o n5_des "sdevice
 job 4 -d "1"  -post { extract_vars "$nodedir" n4_des.out 4 }  -o n4_des "sdevice pp4_des.cmd"
 job 14 -d "1"  -post { extract_vars "$nodedir" n14_des.out 14 }  -o n14_des "sdevice pp14_des.cmd"
 job 3 -d "1"  -post { extract_vars "$nodedir" n3_des.out 3 }  -o n3_des "sdevice pp3_des.cmd"
-check mosfet_1_dvs.cmd 1788176915
+check mosfet_1_dvs.cmd 1788498421
 check mosfet_1_dvs.bnd 1787565771
-check id_vds_des.cmd 1788178988
+check Breakdown_des.cmd 1788500992
 check sdevice.par 1787567664
-check idvg_des.cmd 1788178175
+check id_vds_des.cmd 1788496438
+check idvg_des.cmd 1788494886
 check equillibrium_des.cmd 1787567439
 check global_tooldb 1697803711
-check gtree.dat 1788179004
+check gtree.dat 1788500999
 check ./Nitride.par 1698676163
 check ./PolySilicon.par 1697803594
 check ./SiO2.par 1697803594

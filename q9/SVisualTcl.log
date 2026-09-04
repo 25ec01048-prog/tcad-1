@@ -1,0 +1,53 @@
+###########################################
+# Sentaurus Visual V-2023.12.
+# Tcl log file.
+#------------------------------------------
+# Date: Sep 04, 2026. 12:00:19.
+# Version: 35.2.8515123 (2.8515123)
+# Mode: Interactive (GUI).
+# Hostname: cdsl18.cdsl.iitbbs.ac.in.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 5.14.0-503.11.1.el9_5.x86_64.
+###########################################
+
+load_file /home/cdsllab/25ec01021/q9/n1_msh.tdr -fod
+create_plot -dataset n1_msh
+select_plots {Plot_n1_msh}
+#-> Plot_n1_msh
+#-> Plot_n1_msh
+#-> n1_msh
+zoom_plot -plot Plot_n1_msh -factor 0.909091
+set_material_prop {JunctionLine} -plot Plot_n1_msh -geom n1_msh -on
+#-> 0
+set_material_prop {JunctionLine} -plot Plot_n1_msh -geom n1_msh -off
+#-> 0
+set_material_prop {JunctionLine} -plot Plot_n1_msh -geom n1_msh -on
+#-> 0
+set_material_prop {JunctionLine} -plot Plot_n1_msh -geom n1_msh -off
+#-> 0
+set_material_prop {Interface} -plot Plot_n1_msh -geom n1_msh -on
+#-> 0
+set_material_prop {Interface} -plot Plot_n1_msh -geom n1_msh -off
+#-> 0
+set_material_prop {Oxide Interface PolySilicon Silicide Nitride Silicon Contact JunctionLine} -plot Plot_n1_msh -geom n1_msh -translucency_on
+#-> 0
+set_material_prop {Oxide Interface PolySilicon Silicide Nitride Silicon Contact JunctionLine} -plot Plot_n1_msh -geom n1_msh -translucency_off
+#-> 0
+load_file /home/cdsllab/25ec01021/q9/n2_des.tdr -fod
+create_plot -dataset n2_des
+select_plots {Plot_n2_des}
+#-> Plot_n2_des
+#-> Plot_n2_des
+#-> n2_des
+select_plots {Plot_n1_msh}
+#-> Plot_n1_msh
+set_plot_prop -plot {Plot_n1_msh} -hide
+select_plots {Plot_n2_des}
+#-> Plot_n2_des
+#-> 0
+set_field_prop ImpactIonization -plot Plot_n2_des -geom n2_des -show_bands
+#-> 0
+export_view /home/cdsllab/25ec01021/q9.png -plots {Plot_n2_des} -format png
+#-> 0
+exit 0
+ 

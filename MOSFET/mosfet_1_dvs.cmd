@@ -85,7 +85,7 @@
 (sdegeo:create-rectangle (position 0 0 0.0) (position 0.450  0.010 0.0) "Oxide" "R.STI.Left")   
 (sdegeo:create-rectangle (position 0 0.240 0.0) (position 0.450  0.250 0.0) "Oxide" "R.STI.Right") 
    
-(sdedr:define-refinement-size "Gate_Ref_Def" 0.001 0.001 0 0.001 0.001 0)
+(sdedr:define-refinement-size "Gate_Ref_Def" 0.005 0.005 0 0.0005 0.0005 0)
 
 (sdedr:define-refeval-window "Global_Win" "Rectangle" (position -0.070 0.0 0.0) (position 0.5 0.25 0.0))
 (sdedr:define-refeval-window "Upper_Win"  "Rectangle" (position -0.070 0.0 0.0) (position 0.2 0.25 0.0))
