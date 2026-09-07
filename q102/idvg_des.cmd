@@ -17,6 +17,9 @@ Electrode {
    { Name="gate"      Voltage=(0 at 0, Vg at tend) }
 
 }
+Physics (MaterialInterface = "Silicon/Oxide"){
+	Traps(conc=-@qf@ FixedCharge)
+}
 
 Physics {
 
@@ -70,9 +73,9 @@ Math {
 
 Solve {
     Coupled(Iterations= 1000 LineSearchDamping= 1e-2) { Poisson }
-    Coupled(Iterations= 1000) { Poisson Electron Hole }
+    Coupled(Iterations= 100) { Poisson Electron Hole }
     
-    NewCurrent = "IdVg_@tox@_"
+    NewCurrent = "IdVg_@qf@_"
     Transient (
         InitialTime= 0 FinalTime= tend  
         InitialStep= @<tend*1e5/abs(Vg)>@ MinStep = @<tend*1e-14>@ Maxstep= @<tend*0.01>@ 

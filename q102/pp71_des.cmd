@@ -13,7 +13,9 @@ Electrode {
    { Name="drain"     Voltage=0.4 }
    { Name="gate"      Voltage=0}
 }
-
+Physics (MaterialInterface = "Silicon/Oxide"){
+	Traps(conc=-0 FixedCharge)
+}
 Physics {
    AreaFactor = 1.0
 
@@ -61,7 +63,7 @@ Solve {
     Coupled(Iterations= 1000 LineSearchDamping= 1e-2) { Poisson }
     Coupled(Iterations= 100) { Poisson Electron Hole }
     
-    NewCurrent = "Id_off_0.005"
+    NewCurrent = "Id_off_0"
     Transient (
         InitialTime= 0 FinalTime= 1  
         InitialStep= 142857.142857 MinStep = 1e-14 Maxstep= 0.01 

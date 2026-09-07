@@ -16,6 +16,7 @@ Electrode {
 
 }
 
+
 Physics {
 
    AreaFactor = 1.0
@@ -68,14 +69,14 @@ Math {
 
 Solve {
     Coupled(Iterations= 1000 LineSearchDamping= 1e-2) { Poisson }
-    Coupled(Iterations= 1000) { Poisson Electron Hole }
+    Coupled(Iterations= 100) { Poisson Electron Hole }
     
-    NewCurrent = "IdVg_0.005_"
+    NewCurrent = "IdVg_0_"
     Transient (
         InitialTime= 0 FinalTime= 1  
         InitialStep= 33333.3333333 MinStep = 1e-14 Maxstep= 0.01 
         Increment= 1.5 Decrement= 2
     ) { coupled { Poisson Electron Hole } }
-    System ("rm n_des.plt")   
+    System ("rm n79_des.plt")   
 }
 

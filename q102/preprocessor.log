@@ -14,7 +14,7 @@
 
 spp is running on host 'cdsl18.cdsl.iitbbs.ac.in' by user 'cdsllab'
 Binary: '/cad/synopsys/sentaurus/V-2023.12/tcad/current/linux64/bin/spp'
-Command line options: '-verbose -i -e 18+20+30+40+55+59+63+67 /home/cdsllab/25ec01021/MOSFET_Copy'
+Command line options: '-verbose -i -e 79 /home/cdsllab/25ec01021/q102'
 Project organization 'Traditional'
 Some relevant environment variables:
 	STROOT=/cad/synopsys/sentaurus/V-2023.12
@@ -24,22 +24,22 @@ Some relevant environment variables:
 	DATEX=/cad/synopsys/sentaurus/V-2023.12/tcad/current/lib/datexcodes.txt
 	DISPLAY=:1
 
-Preprocessing project '/home/cdsllab/25ec01021/MOSFET_Copy'
+Preprocessing project '/home/cdsllab/25ec01021/q102'
 Application mode : traditional
 spp will run in Global-per-node mode
 INITIALIZING PREPROCESSOR:
-Loading project tree '/home/cdsllab/25ec01021/MOSFET_Copy/gtree.dat'
-Loading project variables '/home/cdsllab/25ec01021/MOSFET_Copy/gvars.dat'
+Loading project tree '/home/cdsllab/25ec01021/q102/gtree.dat'
+Loading project variables '/home/cdsllab/25ec01021/q102/gvars.dat'
 --Get files to preprocess...
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/mosfet_1_dvs.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/mosfet_1_dvs.bnd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/Breakdown_des.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/idvg_des.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/equillibrium_des.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/idon_des.cmd
-  -->/home/cdsllab/25ec01021/MOSFET_Copy/idoff_des.cmd
+  -->/home/cdsllab/25ec01021/q102/mosfet_1_dvs.cmd
+  -->/home/cdsllab/25ec01021/q102/mosfet_1_dvs.bnd
+  -->/home/cdsllab/25ec01021/q102/Breakdown_des.cmd
+  -->/home/cdsllab/25ec01021/q102/sdevice.par
+  -->/home/cdsllab/25ec01021/q102/id_vds_des.cmd
+  -->/home/cdsllab/25ec01021/q102/idvg_des.cmd
+  -->/home/cdsllab/25ec01021/q102/equillibrium_des.cmd
+  -->/home/cdsllab/25ec01021/q102/idon_des.cmd
+  -->/home/cdsllab/25ec01021/q102/idoff_des.cmd
 --Create file handlers...
 --Read the toolflow...
 --Analyze tool-file dependencies...
@@ -49,351 +49,60 @@ Loading project variables '/home/cdsllab/25ec01021/MOSFET_Copy/gvars.dat'
 --Get all parameters...
 PREPROCESSOR SUCCESSFULLY INITIALIZED.
 PREPROCESSING STEP 1:
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/mosfet_1_dvs.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/mosfet_1_dvs.bnd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/Breakdown_des.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/idvg_des.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/equillibrium_des.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/idon_des.cmd
-Reading file /home/cdsllab/25ec01021/MOSFET_Copy/idoff_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/mosfet_1_dvs.cmd
+Reading file /home/cdsllab/25ec01021/q102/mosfet_1_dvs.bnd
+Reading file /home/cdsllab/25ec01021/q102/Breakdown_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/sdevice.par
+Reading file /home/cdsllab/25ec01021/q102/id_vds_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/idvg_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/equillibrium_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/idon_des.cmd
+Reading file /home/cdsllab/25ec01021/q102/idoff_des.cmd
 PREPROCESSING STEP 2:
 ---------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 18
+Preprocessing file /home/cdsllab/25ec01021/q102/idvg_des.cmd for node 79
 '@tdr@' creates dependences with the node(s) '1'
   -Parameter substitution: '@tdr@' has been replaced by 'n1_msh.tdr'
 
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n18_des.tdr'
+  -Parameter substitution: '@tdrdat@' has been replaced by 'n79_des.tdr'
 
-  -Parameter substitution: '@plot@' has been replaced by 'n18_des.plt'
+  -Parameter substitution: '@plot@' has been replaced by 'n79_des.plt'
 
-  -Parameter substitution: '@log@' has been replaced by 'n18_des.log'
+  -Parameter substitution: '@log@' has been replaced by 'n79_des.log'
 
-  -Parameter substitution: '@parameter@' has been replaced by 'pp18_des.par'
+  -Parameter substitution: '@parameter@' has been replaced by 'pp79_des.par'
 
-  -Parameter substitution: '@tox@' has been replaced by '0.005'
+  -Parameter substitution: '@qf@' has been replaced by '0'
 
-  -Parameter substitution: '1' has been replaced by '1'
+  -Parameter substitution: '@qf@' has been replaced by '0'
 
   -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
 
-  -Parameter substitution: '1' has been replaced by '1'
-
   -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
 
   -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
 
-  -Parameter substitution: '@node@' has been replaced by '18'
+  -Parameter substitution: '@node@' has been replaced by '79'
 
 ---------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 18
+Preprocessing file /home/cdsllab/25ec01021/q102/sdevice.par for node 79
 pre scanning file ./Nitride.par
 pre scanning file ./PolySilicon.par
 pre scanning file ./SiO2.par
 pre scanning file ./Silicide.par
 pre scanning file ./Silicon.par
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp18_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp18_des.cmd'
++++Preprocessed file written to /home/cdsllab/25ec01021/q102/pp79_des.par
+  -Parameter substitution: '@commands@' has been replaced by 'pp79_des.cmd'
 
-cmd_line:pp18_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n18_des.out'
+cmd_line:pp79_des.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n79_des.out'
 
-  -Parameter substitution: '@node@' has been replaced by '18'
+  -Parameter substitution: '@node@' has been replaced by '79'
 
-post_tcl_cmd: extract_vars "$nodedir" n18_des.out 18 
-The node '18' has dependencies to the node(s) '1'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 20
-'@tdr@' creates dependences with the node(s) '1'
-  -Parameter substitution: '@tdr@' has been replaced by 'n1_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n20_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n20_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n20_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp20_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.005'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '20'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 20
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp20_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp20_des.cmd'
-
-cmd_line:pp20_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n20_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '20'
-
-post_tcl_cmd: extract_vars "$nodedir" n20_des.out 20 
-The node '20' has dependencies to the node(s) '1'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 30
-'@tdr@' creates dependences with the node(s) '1'
-  -Parameter substitution: '@tdr@' has been replaced by 'n1_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n30_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n30_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n30_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp30_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.005'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '30'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 30
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp30_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp30_des.cmd'
-
-cmd_line:pp30_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n30_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '30'
-
-post_tcl_cmd: extract_vars "$nodedir" n30_des.out 30 
-The node '30' has dependencies to the node(s) '1'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 40
-'@tdr@' creates dependences with the node(s) '1'
-  -Parameter substitution: '@tdr@' has been replaced by 'n1_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n40_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n40_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n40_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp40_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.005'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '40'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 40
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp40_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp40_des.cmd'
-
-cmd_line:pp40_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n40_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '40'
-
-post_tcl_cmd: extract_vars "$nodedir" n40_des.out 40 
-The node '40' has dependencies to the node(s) '1'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 55
-'@tdr@' creates dependences with the node(s) '51'
-  -Parameter substitution: '@tdr@' has been replaced by 'n51_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n55_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n55_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n55_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp55_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.00538'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '55'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 55
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp55_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp55_des.cmd'
-
-cmd_line:pp55_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n55_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '55'
-
-post_tcl_cmd: extract_vars "$nodedir" n55_des.out 55 
-The node '55' has dependencies to the node(s) '51'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 59
-'@tdr@' creates dependences with the node(s) '51'
-  -Parameter substitution: '@tdr@' has been replaced by 'n51_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n59_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n59_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n59_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp59_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.00538'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '59'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 59
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp59_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp59_des.cmd'
-
-cmd_line:pp59_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n59_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '59'
-
-post_tcl_cmd: extract_vars "$nodedir" n59_des.out 59 
-The node '59' has dependencies to the node(s) '51'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 63
-'@tdr@' creates dependences with the node(s) '51'
-  -Parameter substitution: '@tdr@' has been replaced by 'n51_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n63_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n63_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n63_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp63_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.00538'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '63'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 63
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp63_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp63_des.cmd'
-
-cmd_line:pp63_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n63_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '63'
-
-post_tcl_cmd: extract_vars "$nodedir" n63_des.out 63 
-The node '63' has dependencies to the node(s) '51'
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/id_vds_des.cmd for node 67
-'@tdr@' creates dependences with the node(s) '51'
-  -Parameter substitution: '@tdr@' has been replaced by 'n51_msh.tdr'
-
-  -Parameter substitution: '@tdrdat@' has been replaced by 'n67_des.tdr'
-
-  -Parameter substitution: '@plot@' has been replaced by 'n67_des.plt'
-
-  -Parameter substitution: '@log@' has been replaced by 'n67_des.log'
-
-  -Parameter substitution: '@parameter@' has been replaced by 'pp67_des.par'
-
-  -Parameter substitution: '@tox@' has been replaced by '0.00538'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e5/abs(3)>@' has been replaced by '33333.3333333'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*1e-14>@' has been replaced by '1e-14'
-
-  -Parameter substitution: '1' has been replaced by '1'
-
-  -Expression evaluation: '@<1*0.01>@' has been replaced by '0.01'
-
-  -Parameter substitution: '@node@' has been replaced by '67'
-
----------------------------------------
-Preprocessing file /home/cdsllab/25ec01021/MOSFET_Copy/sdevice.par for node 67
-+++Preprocessed file written to /home/cdsllab/25ec01021/MOSFET_Copy/pp67_des.par
-  -Parameter substitution: '@commands@' has been replaced by 'pp67_des.cmd'
-
-cmd_line:pp67_des.cmd
-  -Parameter substitution: '@stdout@' has been replaced by 'n67_des.out'
-
-  -Parameter substitution: '@node@' has been replaced by '67'
-
-post_tcl_cmd: extract_vars "$nodedir" n67_des.out 67 
-The node '67' has dependencies to the node(s) '51'
+post_tcl_cmd: extract_vars "$nodedir" n79_des.out 79 
+The node '79' has dependencies to the node(s) '1'
 Writing 'gexec.cmd'
-PREPROCESSING FINISHED, Fri Sep  4 12:34:56 2026
+PREPROCESSING FINISHED, Mon Sep  7 15:29:44 2026
 STATUS: Ok
 Processing time = 0 s
 

@@ -14,8 +14,12 @@ Electrode {
     { Name="drain"     Voltage=(0 at 0, Vds at tend) }
     { Name="gate"      Voltage=0 }
 }
+Physics (MaterialInterface = "Silicon/Oxide"){
+	Traps(conc=-@qf@ FixedCharge)
+}
 
 Physics {
+
     AreaFactor = 1.0
 
     Fermi
@@ -59,7 +63,7 @@ Math {
 Solve {
 	Coupled( Iterations=1000 LineSearchDamping=1e-2 ) { Poisson }
 	Coupled( Iterations=100 ) { Poisson Electron Hole }
-	NewCurrentPrefix = "BV_"
+	NewCurrentPrefix = "BV_@qf@"
 	Transient (
 	InitialTime=0 FinalTime=tend
 	InitialStep= @<tend*1e-5/abs(Vds)>@

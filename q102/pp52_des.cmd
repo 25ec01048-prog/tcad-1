@@ -1,10 +1,10 @@
 
 File {
     Grid= "n51_msh.tdr"
-    Plot= "n53_des.tdr"
-    Current= "n53_des.plt"
-    Output= "n53_des.log"
-    Parameter= "pp53_des.par"
+    Plot= "n52_des.tdr"
+    Current= "n52_des.plt"
+    Output= "n52_des.log"
+    Parameter= "pp52_des.par"
 }
 
 Electrode {
@@ -12,8 +12,12 @@ Electrode {
     { Name="drain"     Voltage=(0 at 0, 10 at 1) }
     { Name="gate"      Voltage=0 }
 }
+Physics (MaterialInterface = "Silicon/Oxide"){
+	Traps(conc=-1.85e10 FixedCharge)
+}
 
 Physics {
+
     AreaFactor = 1.0
 
     Fermi
@@ -57,7 +61,7 @@ Math {
 Solve {
 	Coupled( Iterations=1000 LineSearchDamping=1e-2 ) { Poisson }
 	Coupled( Iterations=100 ) { Poisson Electron Hole }
-	NewCurrentPrefix = "BV_"
+	NewCurrentPrefix = "BV_1.85e10"
 	Transient (
 	InitialTime=0 FinalTime=1
 	InitialStep= 1e-06

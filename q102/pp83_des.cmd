@@ -15,6 +15,9 @@ Electrode {
    { Name="gate"      Voltage=(0 at 0, 3 at 1) }
 
 }
+Physics (MaterialInterface = "Silicon/Oxide"){
+	Traps(conc=-1.85e10 FixedCharge)
+}
 
 Physics {
 
@@ -70,12 +73,12 @@ Solve {
     Coupled(Iterations= 1000 LineSearchDamping= 1e-2) { Poisson }
     Coupled(Iterations= 1000) { Poisson Electron Hole }
     
-    NewCurrent = "IdVg_0.00538_"
+    NewCurrent = "IdVg_1.85e10_"
     Transient (
         InitialTime= 0 FinalTime= 1  
         InitialStep= 33333.3333333 MinStep = 1e-14 Maxstep= 0.01 
         Increment= 1.5 Decrement= 2
     ) { coupled { Poisson Electron Hole } }
-    System ("rm n_des.plt")   
+    System ("rm n83_des.plt")   
 }
 
