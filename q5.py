@@ -49,25 +49,23 @@ for i,v in enumerate(vds):
     gm = np.gradient(y_log,df_v[v+" X"]) # numerical derivative
     
     # highslope_gm = (df_v[v+ " X"] >= 0.2) & (df_v[v+ " X"] <= 0.5) 
-    highslope_gm = np.where(gm > 0.25 * gm.max())[0]# index 
+    highslope_gm = np.where(gm > 0.9 * gm.max())[0]# index 
+    
     coef = np.polyfit(df_v[v+ " X"][highslope_gm],y_log[highslope_gm], 1)
-    # print(coef)y
-    v_t_t = 1/coef[0] *1000 # threshold voltage from linear extrapolation
+    print(coef)
+    v_t_t = 1/coef[0] *1000 # subthreshold voltage from linear extrapolation
+    polynomial = np.poly1d(coef)
+    x=df_v[v+ " X"][(highslope_gm[0])-5:(highslope_gm[-1])+10]
+    y2 = 10**polynomial(x)
+    ax[1].plot(x, y2, linestyle='--', label=f'Subthreshold Voltage = {round(v_t_t,2)} mV/decade', color=y[0].get_color())
     print("subthreshold voltage:",round(v_t_t,2)," mV/decade at vds=", v," V")
     v_t = np.append(v_t, v_t_t)
     polynomial = np.poly1d(coef)
-    # print(polynomial.roots)
-    # 3. Define an extended X-range for extrapolation (e.g., up to x=10)
-    # x_extended = np.linspace(v_t_t, df_v[v+" X"][highslope_gm]+0.5, 100)
-    # y_extrapolated = polynomial(x_extended)
-    
-    
-    # ax2.plot(x_extended, y_extrapolated, linestyle='--', label='Extrapolated Line', color=y[0].get_color())
 
 ax[1].set_yscale('log')  # Set the y-axis to logarithmic scale
 
 print(round(v_t.mean(), 2) ,' mV/decade is the average subthreshold voltage')
-ax[1].text(1.5, 0.0005, f'Subthreshold Voltage: ${round(v_t.mean(), 2)} mV/decade$', fontsize=10, color='black', ha='center')
+ax[1].text(1.5, 0.0005, f' Avg Subthreshold Voltage: ${round(v_t.mean(), 2)} mV/decade$', fontsize=10, color='black', ha='center')
 ax[1].set_xlabel(f'$V_{{GS}}$ V')
 ax[1].set_ylabel(f'$I_{{D}}$ A')
 ax[1].set_title(f'$I_{{D}}$ A - $V_{{GS}}$ V Characteristics (LOG SCALE)')
